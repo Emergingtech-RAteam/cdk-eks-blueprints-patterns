@@ -1,6 +1,6 @@
 # EKS Blueprints Patterns
 
-Welcome to the `EKS Blueprints Patterns` repository.
+Welcome to the `EKS Blueprints Patterns` repository
 
 This repository contains a number of samples for how you can leverage the [Amazon EKS Blueprints](https://github.com/aws-quickstart/cdk-eks-blueprints). You can think of the patterns as "codified" reference architectures, which can be explained and executed as code in the customer environment.
 
