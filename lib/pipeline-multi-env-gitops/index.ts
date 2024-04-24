@@ -8,7 +8,7 @@ import { Construct } from 'constructs';
 import * as team from '../teams/pipeline-multi-env-gitops';
 
 //pattern wide consts
-const GITHUB_ORG = 'Emergingtech-RA';
+const GITHUB_ORG = 'Emergingtech-RAteam';
 const CLUSTER_VERSION = eks.KubernetesVersion.V1_26;
 const WORKLOAD_REPO = `git@github.com:${GITHUB_ORG}/eks-blueprints-workloads.git`;
 
