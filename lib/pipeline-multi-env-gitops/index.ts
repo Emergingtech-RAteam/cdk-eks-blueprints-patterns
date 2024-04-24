@@ -113,6 +113,7 @@ export default class PipelineMultiEnvGitops {
                     repoUrl: gitRepositoryName,
                     credentialsSecretName: 'github-token',
                     targetRevision: 'main',
+                    trigger: blueprints.GitHubTrigger.POLL,
                 })
                 .wave({
                     id: 'dev-test',
